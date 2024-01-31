@@ -3,6 +3,11 @@ Console.WriteLine("Hello, World!");
 
 string firstFriend = "Maria";
 string secondFriend = "Scott";
-Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
+string thirdFriend = "   John";
+string fourthFriend = "    Brian   ";
 
-Console.WriteLine("My friend is " + firstFriend + " and " + secondFriend);
+Console.WriteLine($"My friends are {firstFriend} and {secondFriend}.");
+
+Console.WriteLine("My friend is " + firstFriend + " and " + secondFriend + ".");
+
+Console.WriteLine($"{thirdFriend.TrimStart()} and {fourthFriend.Trim()} are not my friends.");
